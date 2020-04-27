@@ -2,7 +2,7 @@
 
 // Il computer deve generare 16 numeri casuali tra 1 e 100, che saranno le "mine";
 
-
+// funzione per numeri random;
 function list_number (min, max)
 {
   var number = Math.floor(Math.random() * max - min + 1) + min;
