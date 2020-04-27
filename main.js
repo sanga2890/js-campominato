@@ -3,9 +3,9 @@
 // Il computer deve generare 16 numeri casuali tra 1 e 100, che saranno le "mine";
 
 
-function list_number (min,max)
+function list_number (min, max)
 {
-  var number = Math.floor(Math.random() * max-min+1)+min;
+  var number = Math.floor(Math.random() * max - min + 1) + min;
   return number;
 }
 
@@ -27,7 +27,7 @@ var mine = [];
 // ciclo do while fino a quando arrivo a 16 elementi nell'array;
 do {
     // genero un nuovo random
-var new_random = list_number(1,100);
+var new_random = list_number(1, 100);
 
 // verificare che se il numero è presente nell'array;
 if (mine.includes(new_random) == false)  {
